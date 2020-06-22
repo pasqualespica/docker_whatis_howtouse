@@ -1,6 +1,9 @@
 
 ## steps 
 
+`docker container run -it -v ~/my_scripts/amqp_Qpid/:/data amqp:v02 bash`
+
+
 ```
 docker image build -t drel6_cdb:1.0 .
 docker container run -it -v /Users/pasqualespica/my_data/PAS7B/work/docker_cdb_machine/src/kit:/data drel6_cdb:1.0

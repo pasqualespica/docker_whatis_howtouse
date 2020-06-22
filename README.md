@@ -41,3 +41,7 @@ docker version
 
 https://docs.docker.com/compose/completion/
 
+### Dockerfile reference
+https://docs.docker.com/engine/reference/builder/
+
+
