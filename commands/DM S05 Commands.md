@@ -127,6 +127,7 @@ docker container inspect mysql3
 
 *(this only works with patch versions, most SQL DB's require manual commands to upgrade DB's to major/minor versions, i.e. it's a DB limitation not a container one)*
 
+
 ### Assignment: Bind Mounts
 
 - Use a Jekyll "Static Site Generator" to start a local web server
@@ -136,8 +137,10 @@ docker container inspect mysql3
 - Container detects changes with host files and updates web server
 - start container with
 
+https://jekyllrb.com/
+
 ## Assignment Answers: Edit Code Running In Containers With Bind Mounts
-docker run -p 80:4000 -v $(pwd):/site bretfisher/jekyllserve
+`docker container run -p 80:4000 -v $(pwd):/site bretfisher/jekyll-serve`
 
 1. Refresh our browser to see changes
 2. Change the file in _posts\ and refresh browser to see changes
