@@ -99,7 +99,7 @@ Usage:	docker image tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 docker image ls
 
 `docker image push bretfisher/nginx`
-but shoud be logged
+**NOTE** but shoud be logged
 
 ```
 docker --help

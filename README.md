@@ -44,4 +44,5 @@ https://docs.docker.com/compose/completion/
 ### Dockerfile reference
 https://docs.docker.com/engine/reference/builder/
 
-
+### Manage data in Docker
+https://docs.docker.com/storage/
